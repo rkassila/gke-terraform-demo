@@ -10,6 +10,7 @@ resource "google_container_cluster" "primary" {
   location = var.zone
 
   initial_node_count = var.node_count
+  deletion_protection = false
 
   node_config {
     machine_type = var.machine_type
@@ -17,8 +18,4 @@ resource "google_container_cluster" "primary" {
       "https://www.googleapis.com/auth/cloud-platform"
     ]
   }
-
-  # Disable some features to keep it cheap
-  remove_default_node_pool = false
-  enable_autopilot         = false
 }
