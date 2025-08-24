@@ -1,6 +1,6 @@
 # GKE Terraform demo project
 
-This project provisions a **Google Kubernetes Engine (GKE)** cluster on **Google Cloud Platform (GCP)** using Terraform.  
+This project provisions a **Google Kubernetes Engine (GKE)** cluster on **Google Cloud Platform (GCP)** using Terraform.
 It is a simple example to demonstrate Infrastructure as Code (IaC) with Terraform and GCP.
 
 ---
@@ -19,7 +19,7 @@ It is a simple example to demonstrate Infrastructure as Code (IaC) with Terrafor
 
 ## ⚙️ Prerequisites
 
-- [Terraform](https://developer.hashicorp.com/terraform/downloads) **v1.5+**
+- [Terraform](https://developer.hashicorp.com/terraform/downloads)
 - [Google Cloud SDK](https://cloud.google.com/sdk/docs/install) installed and authenticated
 - A Google Cloud project with **billing enabled**
 - Enabled APIs:
